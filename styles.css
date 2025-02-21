@@ -501,6 +501,7 @@ form a{
     display: flex;
     justify-content: space-around;
     margin: 50px 0;
+    flex-wrap: wrap;
 }
 
 /* -----------media query--------- */
