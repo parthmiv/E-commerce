@@ -321,6 +321,7 @@ select{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .single-product .col-2 {
