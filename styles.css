@@ -565,5 +565,8 @@ form a{
         margin: 0;
         margin-bottom: 20px;
     }
-    
+    .why-list{
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
