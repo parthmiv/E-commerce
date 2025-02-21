@@ -548,6 +548,7 @@ form a{
     #product-details{
         margin: 0 20px;
         justify-content: center;
+        flex-wrap: column;
     }
     .single-product h1{
         font-size: 26px;
