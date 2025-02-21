@@ -539,6 +539,7 @@ form a{
     }
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
+        margin: 20px 0;
     }
     .single-product .row{
         text-align: center;
