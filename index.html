@@ -1,0 +1,379 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHCStore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3c1a660c1f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Images/vhcstore logo.png" alt="VHCStore" width="125px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav> 
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>   
+                <i class="fa-solid fa-bars" id="menu" onclick="menutoggle()"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Make Your Ride Special</h1>
+                <p>The Durango frame features a sloping top tube that optimizes stand-over clearance while at the same time adding great looks.</p>
+                <a href="" class="btn">Explore now</a>
+            </div>
+            <div class="col-2">
+                <img src="Images/header2.webp" alt="cycle">
+            </div>
+        </div>
+    </div>    
+
+    <!--------------------Featured Categories---------------------- -->
+
+    <div class="categories">
+        <div class="small-container">
+            <h2>Categories</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="Images/kids1.jpeg" alt="Electric">
+                    <h3>KIDS</h3>
+                </div>
+                
+                <div class="col-3">
+                    <a href="product-details.html">
+                        <img src="Images/atb1.1.jpeg" alt="ATB">
+                        <h3>ATB</h3>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <img src="Images/ebike1.1.jpg" alt="Hybrid">
+                    <h3>E-BIKE</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Featured Products---------------------- -->
+    <div class="categories"> 
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4"> 
+                    <a href="product-details.html?id=109">
+                        <img src="Images/ebike1.1.jpg" alt="ebike">
+                    </a>
+                    <h4>Wolverine X 27.5T Single Speed</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>Rs. 25,999</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html?id=102"><img src="Images/kids2.jpg" alt="kids"></a>
+                    <h4>Jr. King</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>Rs. 8,199</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html?id=107"><img src="Images/atb3.jpeg" alt="cycle"></a>
+                    <h4>Invictus 27.5T Multi Speed</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>Rs. 26,999</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------Latest Products------- -->
+        <h2 class="title">Latest Products</h2>
+        
+        <div class="row">
+            <div class="col-4"> 
+                <a href="product-details.html?id=106"><img src="Images/atb2.1.jpg" alt="atb2"></a>
+                <h4>X Life Track</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 44,999</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=102"><img src="Images/kids2.jpg" alt="kids2"></a>
+                <h4>Jr. King</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 8,199</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=110"><img src="Images/ebike2.1.jpg" alt="ebike2"></a>
+                <h4>Meraki 29T</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 28,999</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=107"><img src="Images/atb3.jpeg" alt="atb3"></a>
+                <h4>Invictus 27.5T Multi Speed</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 26,999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html?id=103"><img src="Images/kids3.1.jpeg" alt="kids3"></a>
+                <h4>Frenzy 16T</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 6,569</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=111"><img src="Images/ebike3.1.jpg" alt="ebike"></a>
+                <h4>Z4 27.5T Single Speed</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 37,999</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=108"><img src="Images/atb4.1.jpeg" alt="atb4"></a>
+                <h4>Blizzard D2 26T | Dark</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 9,169</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html?id=104"><img src="Images/kids4.1.jpeg" alt="kids4"></a>
+                <h4>Figo 16T</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs. 8,169</p>
+            </div>
+        </div>
+            
+    </div>
+
+    <!-- ----------Offer--------- -->
+     <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/atb2.1.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on VHCStore</p>
+                    <h1>X Life Track 700C - Black</h1>
+                    <small>
+                        The KTM Life track are popular alloy hybrid bikes had allow a relaxing ride so that you can enjoy nature, equipped with suspension fork and offer more grip than the on-road brothers. Integrated cable routing and a front reflector, incorporated into the fork bridge ensure the bikes are capable and attractive. <br>                        
+                    </small>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- -----------------Testimonial-------------- -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        Amazing quality and a super smooth ride—VHC Store never disappoints!
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/emoji.png" alt="user-image">
+                    <h3>Shubham Dubey</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        Perfect balance of style and comfort—best purchase I've made from VHC Store!
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/emoji.png" alt="user-image">
+                    <h3>Siddesh Nair</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        Durable, lightweight, and budget-friendly—VHC Store cycles are top-notch!
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="Images/emoji.png" alt="user-image">
+                    <h3>Sneh Gosalia</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------Brands----------------- -->
+     <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="Images/brand1.png" alt="logo">
+                </div>
+                <div class="col-5">
+                    <img src="Images/brand4.png" alt="logo">
+                </div>
+                <div class="col-5">
+                    <img src="Images/brand5.png" alt="logo">
+                </div>
+                <div class="col-5">
+                    <img src="Images/brand2.png" alt="logo">
+                </div>
+                <div class="col-5">
+                    <img src="Images/brand3.png" alt="logo">
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- -----------Footer----------- -->
+
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="Images/vhcstore logo.png" alt="logo">
+                    <p>VHCStore is your one-stop destination for cycles and its accessories. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li>Return Policy</li>
+                    </ul>
+                    
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Contact us</h3>
+                    <p>10am - 9pm (Daily)</p>
+                    <a href="https://maps.app.goo.gl/92KeHHnT5tuvY2Jj6">
+                        <p id="addlink">
+                            <br>Registered Address:<br> Shop no 3, Manas Anand, Dongripada, Thane West, Thane, Maharashtra 400615
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2021 VHCStore | All Rights Reserved</p>
+        </div>
+     </div>
+
+     <!-- ------------javascript for toggle menu----------- -->
+      <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px"){
+                menuitems.style.maxHeight = "200px";
+            }
+            else{
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+      </script>
+
+</body>
+</html>
