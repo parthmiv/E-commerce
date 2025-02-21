@@ -1,2 +1,2 @@
 # E-commerce
-Project
+https://parthmiv.github.io/E-commerce/
