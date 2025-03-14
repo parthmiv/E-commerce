@@ -97,16 +97,16 @@
         }
       </script>
 
-       <!-- ---chatgpt--- -->
+       <!-- ---Product_Details--- -->
        <script src="products.js"></script>
        <script>
-           // Function to get the product ID from the URL
+           
            function getProductIdFromURL() {
                const params = new URLSearchParams(window.location.search);
                return params.get("id");
            }
        
-           // Function to display product details
+           
            function displayProductDetails() {
                const productId = getProductIdFromURL();
                const product = products.find(p => p.id == productId);
@@ -128,7 +128,7 @@
                }
            }
        
-           // Call the function when the page loads
+           
            displayProductDetails();
        </script>
        
